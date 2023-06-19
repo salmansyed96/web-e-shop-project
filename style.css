@@ -614,8 +614,9 @@ footer .install  img{
 .normal
 /* Shop Header section */
 
-#page-header{
-    background-image: url(image/banner/b1.jpeg);
+#page-header .img{
+    /* background-image: url(image/banner/b1.jpeg) !important; */
+    background-image:url("image/banner/b1.jpeg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -625,8 +626,8 @@ footer .install  img{
     flex-direction: column;
     padding: 14px;
 }
-#page-header h2,
-#page-header p {
+#page-header   h2, 
+#page-header p  {
     color: #fff;
 }
 #pagination{
@@ -650,6 +651,15 @@ footer .install  img{
     display: flex;
     justify-content: space-between;
 } */
+
+/* Blog page */
+#page-header .blog-header{
+    background-image: url("image/blog/b1.jpg");
+
+}
+
+
+
 
 /*==================== Start Media query ===================*/
 
