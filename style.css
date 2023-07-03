@@ -642,7 +642,7 @@ footer .install img {
     transition: 0.3s;
   }
   #navbar.active {
-    right: 0px;
+    right: 40px;
   }
   #navbar li {
     margin-bottom: 25px;
